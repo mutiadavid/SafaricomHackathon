@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  safaricomhackathon.leftrotation:
+    image: ${DOCKER_REGISTRY-}safaricomhackathonleftrotation
+    build:
+      context: .
+      dockerfile: SafaricomHackathon.LeftRotation/Dockerfile

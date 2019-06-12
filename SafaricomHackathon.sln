@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafaricomHackathon.LeftRota
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafaricomHackathon.LeftRotationTests", "SafaricomHackathon.LeftRotationTests\SafaricomHackathon.LeftRotationTests.csproj", "{968DCA20-C8BC-490E-B3C1-C69EBCCE6E38}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1C8EEB50-E934-4CA1-8353-1B439285BBB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{968DCA20-C8BC-490E-B3C1-C69EBCCE6E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968DCA20-C8BC-490E-B3C1-C69EBCCE6E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{968DCA20-C8BC-490E-B3C1-C69EBCCE6E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8EEB50-E934-4CA1-8353-1B439285BBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8EEB50-E934-4CA1-8353-1B439285BBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8EEB50-E934-4CA1-8353-1B439285BBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8EEB50-E934-4CA1-8353-1B439285BBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace SafaricomHackathon.LeftRotation
 
             var array = new int[] { 1, 2, 3, 7, 9 };
 
-            var rotatedArray = rotation.RotateToLeft(array,0);
+            var rotatedArray = rotation.RotateToLeft(array,1000000);
 
             Console.WriteLine("Before Rotation: ");
             PrintArray(array);
