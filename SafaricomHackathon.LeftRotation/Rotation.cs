@@ -21,8 +21,8 @@ namespace SafaricomHackathon.LeftRotation
 
                 //avoiding fixed array size error
                 var arrayToRotate = array.ToList();
-                //for (int i = 0; i < n; i++)
-                //{
+                for (int i = 0; i < n; i++)
+                {
                     //for each loop we want to move first element to the back of our array
                     //get first element within the array
                     var firstElement = arrayToRotate[0];
@@ -32,8 +32,8 @@ namespace SafaricomHackathon.LeftRotation
 
                     //add the first element back 
                     arrayToRotate.Add(firstElement);
-                //}
-                return RotateToLeft(arrayToRotate.ToArray(),n-1);
+                }
+                return arrayToRotate.ToArray();
             }
             catch (Exception ex)
             {
